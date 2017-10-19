@@ -7,19 +7,13 @@ This dataset has been preprocessed by stripping out punctuation and stemmed usin
 
 *Indexer performs the following:*
 
-1.Reads the tokenized and stemmed document collection provided in the assignment.
-
-2.Term vectors are constructed by splitting the given text by spaces (the regex \\s+), and ignoring blank strings.
-
-3.A simple inverted index is built with positional information.  
-
-4.Command line parameter is used to choose between compressed and uncompressed inverted lists. Compressed lists should use both delta encoding and vbyte compression.
-
-5.Inverted lists and all ancillary index structures are  written to disk, enabling reopening a written index. 
-
-6.An appropriate API is added to  index so as to enable accessing the vocabulary, term counts, document counts and other statistics that  will be required to perform the evaluation activities.
-
-7.Retrieval API is provided that enables performing query retrieval on  index. For this project, a raw count model is sufficient.
+1. Reads the tokenized and stemmed document collection provided in the assignment.
+2. Term vectors are constructed by splitting the given text by spaces (the regex \\s+), and ignoring blank strings.
+3. A simple inverted index is built with positional information.  
+4. Command line parameter is used to choose between compressed and uncompressed inverted lists. Compressed lists should use both delta encoding and vbyte compression.
+5. Inverted lists and all ancillary index structures are  written to disk, enabling reopening a written index. 
+6. An appropriate API is added to  index so as to enable accessing the vocabulary, term counts, document counts and other statistics that  will be required to perform the evaluation activities.
+7. Retrieval API is provided that enables performing query retrieval on  index. For this project, a raw count model is sufficient.
 
 **Evaluation**
 
