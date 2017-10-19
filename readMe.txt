@@ -1,6 +1,6 @@
 Steps to run
 
-1) Load the Assignment1 folder in eclipse.
+1) Load the code  in eclipse.
 2) Provide the commandline argument through Run-> Run configuration -> Arguments and provide the program arguments.  Below is the list of command line arguments: 
 a) -c for running in compression mode
 b) -q to generate queries else it will read the  queries form queryTerms.txt
